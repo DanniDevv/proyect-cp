@@ -1,0 +1,24 @@
+/* title */
+.nosotros-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-content {
+    text-align: center;
+}
+
+.title-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.nosotros-title {
+    margin-right: 10px;
+}
+
+.icon-nosotros {
+    width: 50px;
+}
+/* mision and vison */

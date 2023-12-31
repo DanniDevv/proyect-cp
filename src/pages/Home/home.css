@@ -62,3 +62,30 @@
 .information {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        margin-top: 40%;
+    }
+
+    .container-left {
+        width: 100%;
+        margin: 10% 0;
+    }
+    .container-imagen{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-primary {
+        width: 50%;
+    }
+
+    .container-right {
+        width: 100%;
+    }
+
+    .title {
+        margin-left: 2rem;
+    }
+}
