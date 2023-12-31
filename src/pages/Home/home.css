@@ -1,0 +1,64 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* left */
+.container-left {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.icon-primary {
+    width: 100%;
+}
+
+/* right */
+.container-right {
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.icon {
+    margin-right: 30px;
+}
+
+.nosotros,
+.redes,
+.seguridad,
+.energia,
+.telecomunicaciones,
+.contactanos,
+.clientes,
+.trabajamos {
+    width: 80px;
+}
+
+.information {
+    font-size: 20px;
+}
